@@ -58,6 +58,9 @@ HTTP provides basic authentication access and digest authentication access at th
 
 ## HTTP Version 2.0 ##
 
+
+* Version 1.1 underwent for numerous extensions and developements for over 15 years.
+
 * Binary protocals are impemented instead of text, and also opetimized for better performance. 
 
 * Parallel requests can be handled at the same time through multiplexed protocol structure to avoid blocking constraints. 
@@ -76,6 +79,8 @@ HTTP provides basic authentication access and digest authentication access at th
 * Client-hits are introduced to request the server according to local hardware and components requirement. 
 
 * Cookie header is prefixed with secured cookies that cannot be altered, heading to secured connections.
+
+* The run environment will be running in QUIC.
 
 
 
